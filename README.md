@@ -1,31 +1,40 @@
-IT-Inventory-Collector-PC-Hardware-List
-Your comprehensive solution for IT inventory management. This system gathers, organizes, and manages PC hardware details through a combination of PowerShell scripting and an Express.js backend.
+# IT-Inventory-Collector-PC-Hardware-List
 
-Features
-PowerShell Integration: A hassle-free script execution on client machines for capturing hardware details.
-Express.js Backend: A robust backend to efficiently process the incoming hardware details.
-Excel Integration: An intuitive method to store and manage the incoming data.
-Setup and Usage
-Backend
-Clone the repository:
+Comprehensive IT inventory management solution, focused on extracting and organizing PC hardware details.
 
-git clone https://github.com/taochensyd/IT-Inventory-Collector-PC-Specs.git
-Navigate into the directory and install dependencies:
+## 🌟 Features
+
+- **PowerShell Scripting**: Effortlessly run scripts on client machines to gather vital hardware details.
+- **Express.js Backend**: Designed for efficient reception and processing of hardware data.
+- **Excel Integration**: Convenient storage and management system for hardware data.
+
+## 🚀 Getting Started
+
+### Backend Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/IT-Inventory-Collector-PC-Hardware-List.git
+Install Dependencies:
+
 
 cd IT-Inventory-Collector-PC-Hardware-List
 npm install
-Start the server:
+Run the Server:
+
 
 npm start
-PowerShell Script
-Distribute and execute the provided PowerShell script on client machines. The script will gather hardware details and send them to your backend server.
+PowerShell Scripting
+Ensure to distribute the PowerShell script among client machines. Once executed, the script will accumulate hardware information and transmit to the backend server.
 
-Contributing
-Contributions are welcome! To contribute:
+✍️ Contributing
+Wish to make a difference? Here's how:
 
 Fork the repository.
-Create a new feature branch.
-Make your changes and commit them.
-Push the branch and submit a pull request.
-License
-This project is licensed under the MIT License. Please see the LICENSE file for more information.
+Spin up a new feature branch.
+Commit your changes.
+Push the branch.
+Submit a pull request.
+
+📜 License
+This project falls under the MIT License. Dive into the LICENSE file for more insights.
