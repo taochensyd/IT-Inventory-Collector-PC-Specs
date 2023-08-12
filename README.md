@@ -1,40 +1,31 @@
-🖥️ IT-Inventory-Collector-PC-Hardware-List
-🛠️ Your one-stop solution for IT inventory management. Gather, organize, and manage PC hardware details effortlessly with our integrated PowerShell script and Express.js backend.
+IT-Inventory-Collector-PC-Hardware-List
+Your comprehensive solution for IT inventory management. This system gathers, organizes, and manages PC hardware details through a combination of PowerShell scripting and an Express.js backend.
 
-🌟 Features
-📜 PowerShell Integration: Execute a simple script on client machines to capture critical hardware details.
-🌐 Express.js Backend: An efficient and robust backend system to handle and process incoming data.
-📊 Excel Magic: Seamlessly store and manage data in a user-friendly Excel sheet.
-🚀 Getting Started
-1️⃣ Backend Setup
-Clone this project:
-bash
-Copy code
-git clone https://github.com/your-username/IT-Inventory-Collector-PC-Hardware-List.git
-Navigate into the project folder and set up:
-bash
-Copy code
+Features
+PowerShell Integration: A hassle-free script execution on client machines for capturing hardware details.
+Express.js Backend: A robust backend to efficiently process the incoming hardware details.
+Excel Integration: An intuitive method to store and manage the incoming data.
+Setup and Usage
+Backend
+Clone the repository:
+
+git clone https://github.com/taochensyd/IT-Inventory-Collector-PC-Specs.git
+Navigate into the directory and install dependencies:
+
 cd IT-Inventory-Collector-PC-Hardware-List
 npm install
-Power up the server:
-bash
-Copy code
+Start the server:
+
 npm start
-2️⃣ PowerShell Script Deployment
-Distribute and run the PowerShell script on your target client machines. Once executed, the hardware details are sent directly to your backend server.
+PowerShell Script
+Distribute and execute the provided PowerShell script on client machines. The script will gather hardware details and send them to your backend server.
 
-📖 Usage
-Simply run the PowerShell script on any client machine. The rest is automated – from data collection to sending to the backend.
+Contributing
+Contributions are welcome! To contribute:
 
-👩‍💻 Contributing
-We're open to enhancements & bug-fixes. Here's how you can help:
-
-Fork this repository.
-Set up your feature branch: git checkout -b feature/YourFeature
-Commit your changes: git commit -am 'Add some feature'
-Push the branch: git push origin feature/YourFeature
-Submit a pull request.
-📜 License
-MIT License. Feel free to use and modify the code, but please attribute the original author. View LICENSE for details.
-
-Once again, remember to fill in placeholders, like your-username. You can also further enhance this README by adding graphics, badges, detailed explanations, and anything else you find relevant to your project.
+Fork the repository.
+Create a new feature branch.
+Make your changes and commit them.
+Push the branch and submit a pull request.
+License
+This project is licensed under the MIT License. Please see the LICENSE file for more information.
